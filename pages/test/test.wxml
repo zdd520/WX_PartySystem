@@ -1,0 +1,19 @@
+<view class="table">
+  <i-row>
+    <i-col span="5" i-class="col-class"><i-icon type="activity" size="28" color="#80848f" /></i-col>
+    <i-col span="7" i-class="col-class" ><view>编号</view></i-col>
+    <i-col span="5" i-class="col-class"><i-icon type="document" size="28" color="#80848f" /></i-col>
+    <i-col span="7" i-class="col-class"><view>试卷主题名</view></i-col>
+</i-row>
+
+<block wx:for="{{myinfo}}" wx:key="{{myinfo.length}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td" value="{{myinfo.length}}"></view>
+      <view class="td" value="{{myinfo.Exxztm}}"></view>
+    </view>
+    <view class="tr" wx:else> 
+   <view class="td" value="{{myinfo.length}}"></view>
+      <view class="td" value="{{myinfo.Exxztm}}"></view>
+    </view>
+  </block>
+</view>

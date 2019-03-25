@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<swiper indicator-dots="true" autoplay="autoplay" interval="3000" duration="1000">
+      <swiper-item>
+        <image src="../../images/login.png" class="slide-image" />
+      </swiper-item>
+      <swiper-item>
+        <image src="../../images/login.png" class="slide-image" />
+      </swiper-item>
+      <swiper-item>
+        <image src="../../images/login.png" class="slide-image" />
+      </swiper-item>
+  </swiper>
+  <i-grid>
+    <i-row>
+        <i-grid-item>
+          <i-grid-icon>
+              <image src="../../images/icon_study.png" />
+          </i-grid-icon>
+        <i-grid-label>在线学习</i-grid-label>
+        </i-grid-item>
+        <i-grid-item>
+          <i-grid-icon>
+              <image src="../../images/icon_activity.png" />
+          </i-grid-icon>
+        <i-grid-label>主题活动</i-grid-label>
+        </i-grid-item>
+        <i-grid-item>
+          <i-grid-icon>
+              <image src="../../images/icon_course.png" />
+          </i-grid-icon>
+        <i-grid-label>三会一课</i-grid-label>
+        </i-grid-item>
+    </i-row>
+   <i-row>
+        <i-grid-item>
+          <i-grid-icon>
+              <image src="../../images/icon_test.png" />
+          </i-grid-icon>
+        <i-grid-label>在线测试</i-grid-label>
+        </i-grid-item>
+        <i-grid-item>
+          <i-grid-icon>
+            <image src="../../images/icon_serve.png" />
+          </i-grid-icon>
+        <i-grid-label>服务模块</i-grid-label>
+        </i-grid-item>
+        <i-grid-item>
+          <i-grid-icon>
+              <image src="../../images/icon_statistics.png" />
+          </i-grid-icon>
+        <i-grid-label>统计模块</i-grid-label>
+        </i-grid-item>
+    </i-row>
+</i-grid>

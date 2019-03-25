@@ -1,0 +1,31 @@
+/**index.wxss**/
+
+/*轮播图样式*/
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper-image {
+  height: 100%;
+  width: 100%;
+}
+.slide-image{
+   height: 100%;
+  width: 100%;
+}
+
+/*栅格布局样式*/
+.row-class{
+    background: #fff;
+}
+.col-class{
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    background: #2d8cf0;
+    font-size: 10px;
+}
+.col-class.light{
+    background: #5cadff;
+}

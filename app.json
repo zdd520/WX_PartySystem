@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/test/test",
+    "pages/index/index",
+    "pages/login/login",
+    
+    
+    "pages/mine/mine",
+    "pages/server/server",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "安师大党建管理",
+    "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+      "color": "#a9b7b7",
+      "selectedColor": "#11cd6e",
+      "borderStyle": "black",
+      "list": [
+        {
+          "selectedIconPath": "images/icon_home_selected.png",
+          "iconPath": "images/icon_home.png",
+          "pagePath": "pages/index/index",
+          "text": "首页"
+        },
+        {
+          "selectedIconPath": "images/icon_mine_selected.png",
+          "iconPath": "images/icon_mine.png",
+          "pagePath": "pages/mine/mine",
+          "text": "我的"
+        }
+      ]
+    }
+}
